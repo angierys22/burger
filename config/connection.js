@@ -11,6 +11,7 @@ if (process.env.JAWSDB_URL) {
   password: process.env.LOCAL_MYSQL_PASSWORD,
   database: "burgers_db"
 });
+  };
 
 
 connection.connect(function(err) {
